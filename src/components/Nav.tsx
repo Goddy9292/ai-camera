@@ -4,8 +4,8 @@ import { UserIcon , Cog8ToothIcon ,ArrowRightStartOnRectangleIcon } from '@heroi
 
 const Navbar = () => {
   return (
-    <nav style={{ backgroundColor: '#C33335' }} className="p-6">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav style={{ backgroundColor: '#C33335', zIndex: 10, position: 'relative' }} className="p-5 flex justify-end top-0 z-40 flex-none w-full mx-auto ">
+      <div className="container flex justify-end">
         {/* Left Side - Brand */}
         <div className="text-white text-xl font-bold">
         
